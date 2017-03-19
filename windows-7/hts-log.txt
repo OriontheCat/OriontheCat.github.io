@@ -1,0 +1,12 @@
+HTTrack3.48-22+htsswf+htsjava launched on Sun, 19 Mar 2017 16:12:54 at http://mirror.corenoc.de/digitalrivercontent.net/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://mirror.corenoc.de/digitalrivercontent.net/ -O1 "C:\My Web Sites\Windows 7" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:15:25	Error: 	"Forbidden" (403) at link s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js (from mirror.corenoc.de/digitalrivercontent.net/)
+
+HTTrack Website Copier/3.48-22 mirror complete in 2 minutes 31 seconds : 108 links scanned, 106 files written (2249986 bytes overall) [2266060 bytes received at 15007 bytes/sec], 1832045 bytes transferred using HTTP compression in 92 files, ratio 98%, 13.5 requests per connection
+(1 errors, 0 warnings, 0 messages)
