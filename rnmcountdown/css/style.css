@@ -5,7 +5,7 @@ html {
 
 body{
 	text-align: center;
-  font-family: sans-serif;
+  font-family: Impact;
   font-weight: 100;
 }
 
@@ -17,7 +17,7 @@ h1{
 }
 
 #clockdiv{
-	font-family: sans-serif;
+	font-family: Impact;
 	color: #fff;
 	display: inline-block;
 	font-weight: 100;
