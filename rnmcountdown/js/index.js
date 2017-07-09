@@ -37,16 +37,17 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date("2017-07-30");
-initializeClock('clockdiv', deadline);
-var ep3 = new Date("2017-07-30");
-var ep4 = new Date("2017-08-06");
-var ep5 = new Date("2017-08-13");
-var ep6 = new Date("2017-08-20");
-var ep7 = new Date("2017-08-27");
-var ep8 = new Date("2017-09-03");
-var ep9 = new Date("2017-09-10");
-var ep10 = new Date("2017-09-17");
+var ep2 = new Date("2017-07-31");
+var ep3 = new Date("2017-08-07");
+var ep4 = new Date("2017-08-14");
+var ep5 = new Date("2017-08-21");
+var ep6 = new Date("2017-08-28");
+var ep7 = new Date("2017-09-04");
+var ep8 = new Date("2017-09-11");
+var ep9 = new Date("2017-09-18");
+var ep10 = new Date("2017-09-24");
 function upDate() {
- if Date() = 
+ if Date() = ep3 var deadline
 }
+
+initializeClock('clockdiv', deadline);
