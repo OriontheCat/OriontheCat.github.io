@@ -2,6 +2,7 @@
 
 
 This is a countdown to each episode of Rick and Morty Season 3:
+
 It will automagically move to the next episode after the current episode has come out.
 
 # To-Do
