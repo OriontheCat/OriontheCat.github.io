@@ -1,4 +1,4 @@
-video#bgvid { 
+video#bgvid {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -12,7 +12,7 @@ video#bgvid {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background: url(PoopyButthole.jpg) no-repeat;
-    background-size: cover; 
+    background-size: cover;
 }
 
 @media screen and (max-device-width: 800px) {
@@ -50,7 +50,7 @@ h1{
 #clockdiv > div{
 	padding: 10px;
 	color: #5A5A5A;
-  font-size: 1000%;
+  font-size: 900%;
 	opacity: 0.7;
 	border-radius: 3px;
 	display: inline-block;
