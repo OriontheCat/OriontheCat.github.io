@@ -1,36 +1,36 @@
 video#bgvid {
-    position: fixed;
-    top: 53%;
-    left: 53%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(PoopyButthole.jpg) no-repeat;
-    background-size: cover;
+	position: fixed;
+	top: 53%;
+	left: 53%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url(PoopyButthole.jpg) no-repeat;
+	background-size: cover;
 }
 
-
-body{
+body {
 	text-align: center;
-  font-family: Impact;
-  font-weight: 100;
+	font-family: Impact;
+	font-weight: 100;
 }
 
-h1{
-  color: #5A5A5A;
-  font-weight: 100;
-  font-size: 100px;
-  opacity: 0.8;
-  margin: 40px 0px 20px;
+h1 {
+	color: #5A5A5A;
+	font-weight: 100;
+	font-size: 100px;
+	opacity: 0.8;
+	margin: 40px 0px 20px;
 }
 
-#clockdiv{
+#clockdiv {
 	font-family: Impact;
 	color: #fff;
 	display: inline-block;
@@ -39,19 +39,17 @@ h1{
 	font-size: 30px;
 }
 
-#clockdiv > div{
+#clockdiv>div {
 	padding: 10px;
 	color: #5A5A5A;
-  font-size: 900%;
+	font-size: 900%;
 	opacity: 0.7;
 	border-radius: 3px;
 	display: inline-block;
 }
 
-
-
-.smalltext{
+.smalltext {
 	padding-top: 5px;
 	font-size: 60px;
-  opacity: 0.8;
+	opacity: 0.8;
 }
