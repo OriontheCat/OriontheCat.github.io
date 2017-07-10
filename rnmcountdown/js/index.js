@@ -49,6 +49,10 @@ var ep10 = new Date("2017-09-23");
 function upDate() {
  if Date() < ep2
   then var deadline = ep2
+ if ep2 =< Date() < ep3
+  then var deadline = ep2
 }
-
+console.log(ep2)
+console.log(ep3)
+console.log(ep4)
 initializeClock('clockdiv', deadline);
