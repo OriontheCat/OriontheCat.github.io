@@ -1,3 +1,4 @@
+
 function getTimeRemaining (endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date())
   var seconds = Math.floor((t / 1000) % 60)
@@ -36,7 +37,6 @@ function initializeClock (id, endtime) {
   updateClock()
   var timeinterval = setInterval(updateClock, 1000)
 }
-
 var d = new Date()
 var ep2 = '2017-07-30'
 var ep3 = '2017-08-06'
