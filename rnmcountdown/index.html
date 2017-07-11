@@ -3,15 +3,16 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-
 	<title>Ooh Wee, Season Three</title>
-	<link href="css/style.css" rel="stylesheet">
+	<link id="css" href="css/style.css" rel="stylesheet">
 	<link href="js/index.js" rel="javascript">
-	<link href="js/konami.js" rel="javascript">
+	<script src='js/konami.js'></script>
+	<script src='js/easter_egg.js'></script>
+	<script src='js/jquery-3.2.1.min.js'></script>
 </head>
 
 <body>
-	<video autoplay="" id="bgvid" loop="" muted="" playsinline="" poster="PoopyButthole.jpg"><source src="PoopyButthole.mp4" type="video/mp4"></video>
+	<video autoplay="" id="bgvid" loop="" muted="" playsinline="" poster="PoopyButthole.jpg" class="bgvid" controls><source id="video" src="PoopyButthole.mp4" type="video/mp4"></video>
 
 	<div id="rnmep">
 		<h1>
@@ -21,36 +22,36 @@
 
 	<div id="clockdiv">
 		<div>
-			<span class="days"></span>
+			<span id="days" class="days"></span>
 
-			<div class="smalltext">
+			<div id="dsmalltext" class="smalltext">
 				Days
 			</div>
 		</div>
 
 
 		<div>
-			<span class="hours"></span>
+			<span id="hours" class="hours"></span>
 
-			<div class="smalltext">
+			<div id="hsmalltext" class="smalltext">
 				Hours
 			</div>
 		</div>
 
 
 		<div>
-			<span class="minutes"></span>
+			<span id="minutes" class="minutes"></span>
 
-			<div class="smalltext">
+			<div id="msmalltext" class="smalltext">
 				Minutes
 			</div>
 		</div>
 
 
 		<div>
-			<span class="seconds"></span>
+			<span id="seconds" class="seconds"></span>
 
-			<div class="smalltext">
+			<div id="ssmalltext" class="smalltext">
 				Seconds
 			</div>
 		</div>
