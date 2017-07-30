@@ -38,7 +38,7 @@ function initializeClock (id, endtime) {
   var timeinterval = setInterval(updateClock, 1000)
 }
 var d = new Date()
-var ep2 = '2017-07-30'
+var ep2 = '1501414200'
 var ep3 = '2017-08-06'
 var ep4 = '2017-08-13'
 var ep5 = '2017-08-20'
