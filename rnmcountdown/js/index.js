@@ -40,7 +40,7 @@ function initializeClock (id, endtime) {
 var d = new Date()
 var ep2 = '1501414200'
 var ep3 = '2017-08-06'
-var ep4 = '2017-08-13'
+var ep4 = '2017-08-13 23:30'
 var ep5 = '2017-08-20'
 var ep6 = '2017-08-27'
 var ep7 = '2017-09-03'
