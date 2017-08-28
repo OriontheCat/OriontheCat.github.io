@@ -39,3 +39,13 @@ h1{
 	padding-top: 5px;
 	font-size: 16px;
 }
+
+.box {
+    position:relative;
+}
+.version {
+    	position:absolute;
+   	bottom:0;
+    	right:0;
+	color: #fff;
+}
