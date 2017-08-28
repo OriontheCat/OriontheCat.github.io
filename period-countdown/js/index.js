@@ -31,7 +31,7 @@ var x = setInterval(function() {
 	ep4.setHours(14, 10, 0, 0)
 	var tep4 = ep4 - now
 	var bp5 = new Date()
-	bp5.setHours(14, 45, 0, 0)
+	bp5.setHours(14, 15, 0, 0)
 	var tbp5 = bp5 - now
 	var ep5 = new Date()
 	ep5.setHours(15, 35, 0, 0)
