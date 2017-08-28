@@ -83,7 +83,7 @@ var x = setInterval(function() {
 	} else if (min == tbp5) {
 		var countDownDate = bp5
 		var period = "Until the Beginning of Period 5"
-	} else if (min == tep1) {
+	} else if (min == tep5) {
 		var countDownDate = ep5
 		var period = "Until the End of Period 5"
 	} else if (min == tbathe) {
