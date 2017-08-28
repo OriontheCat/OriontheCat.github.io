@@ -96,7 +96,7 @@ var x = setInterval(function() {
 		var countDownDate = eathl
 		var period = "Until the End of Late Athletics"
 	} else {
-		console.log(fuck)
+		console.log("crap")
 	};
 	document.getElementById("period").innerHTML = "Time " + period
 		// Find the distance between now an the count down date
