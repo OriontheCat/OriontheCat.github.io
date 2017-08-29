@@ -71,8 +71,8 @@ var x = setInterval(function() {
 	} else if (min == teflexandbp3) {
 		var countDownDate = eflexandbp3
 		var period = "Until the End of Flex and the Beginning of Period 3"
-	} else if (min == tep2) {
-		var countDownDate = ep2
+	} else if (min == tep3) {
+		var countDownDate = ep3
 		var period = "Until the End of Period 3"
 	} else if (min == tbp4) {
 		var countDownDate = bp4
