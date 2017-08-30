@@ -56,45 +56,73 @@ var x = setInterval(function() {
 	if (min == tbp1) {
 		var countDownDate = bp1
 		var period = "Until the Beginning of Period 1"
+		var countDownDate2 = ep1
+		var period2 = "Until the End of Period 1"
 	} else if (min == tep1) {
 		var countDownDate = ep1
 		var period = "Until the End of Period 1"
+		var countDownDate2 = bp2
+		var period2 = "Until the Beginning of Period 2"
 	} else if (min == tbp2) {
 		var countDownDate = bp2
 		var period = "Until the Beginning of Period 2"
+		var countDownDate2 = ep2
+		var period2 = "Until the End of Period 2"
 	} else if (min == tep2) {
 		var countDownDate = ep2
 		var period = "Until the End of Period 2"
+		var countDownDate2 = bflex
+		var period2 = "Until the Beginning of Flex"
 	} else if (min == tbflex) {
 		var countDownDate = bflex
 		var period = "Until the Beginning of Flex"
+			var countDownDate2 = eflexandbp3
+			var period2 = "Until the End of Flex and the Beginning of Period 3"
 	} else if (min == teflexandbp3) {
 		var countDownDate = eflexandbp3
 		var period = "Until the End of Flex and the Beginning of Period 3"
+			var countDownDate2 = ep3
+			var period2 = "Until the End of Period 3"
 	} else if (min == tep3) {
 		var countDownDate = ep3
 		var period = "Until the End of Period 3"
+			var countDownDate2 = bp4
+			var period2 = "Until the Beginning of Period 4"
 	} else if (min == tbp4) {
 		var countDownDate = bp4
 		var period = "Until the Beginning of Period 4"
+			var countDownDate2 = ep4
+			var period2 = "Until the End of Period 4"
 	} else if (min == tep4) {
 		var countDownDate = ep4
 		var period = "Until the End of Period 4"
+			var countDownDate2 = bp5
+			var period2 = "Until the Beginning of Period 5"
 	} else if (min == tbp5) {
 		var countDownDate = bp5
 		var period = "Until the Beginning of Period 5"
+			var countDownDate2 = ep5
+			var period2 = "Until the End of Period 5"
 	} else if (min == tep5) {
 		var countDownDate = ep5
 		var period = "Until the End of Period 5"
+			var countDownDate2 = bathe
+			var period2 = "Until the Beginning of Early Athletics"
 	} else if (min == tbathe) {
 		var countDownDate = bathe
 		var period = "Until the Beginning of Early Athletics"
+			var countDownDate2 = eatheandbathl
+			var period2 = "Until the End of Early Athletics\nand the Beginning of Late Athletics"
 	} else if (min == teatheandbathl) {
 		var countDownDate = eatheandbathl
 		var period = "Until the End of Early Athletics\nand the Beginning of Late Athletics"
+			var countDownDate2 = eathl
+			var period2 = "Until the End of Late Athletics"
 	} else if (min == teathl) {
 		var countDownDate = eathl
 		var period = "Until the End of Late Athletics"
+			var countDownDate2 = bp1
+			var period2 = "Until the Beginning of Period 1"
 	} else {
 		console.log("crap")
 	};
@@ -111,5 +139,21 @@ var x = setInterval(function() {
 	document.getElementById("hours").innerHTML = hours
 	document.getElementById("minutes").innerHTML = minutes
 	document.getElementById("seconds").innerHTML = seconds
+	document.getElementById("period").innerHTML = "Time " + period
+		// Find the distance between now an the count down date
+
+document.getElementById("period2").innerHTML = "Time " + period2
+		
+	var distance2 = countDownDate2 - now;
+	// Time calculations for days, hours, minutes and seconds
+	var days2 = Math.floor(distance2 / (1000 * 60 * 60 * 24));
+	var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
+	// Display the result in the element with id="countdown"
+	document.getElementById("days2").innerHTML = days
+	document.getElementById("hours2").innerHTML = hours
+	document.getElementById("minutes2").innerHTML = minutes2
+	document.getElementById("seconds2").innerHTML = seconds2
 // If the count down is finished, write some text
 }, 1000);
