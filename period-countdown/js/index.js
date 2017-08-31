@@ -18,12 +18,9 @@ function setCountDownDate() {
 	var bp2 = new Date()
 	bp2.setHours(9, 15, 0, 0)
 	var tbp2 = bp2 - now
-	var ep2 = new Date()
-	ep2.setHours(10, 35, 0, 0)
-	var tep2 = ep2 - now
-	var bflex = new Date()
-	bflex.setHours(10, 35, 0, 0)
-	var tbflex = bflex - now
+	var ep2andbflex = new Date()
+	ep2andbflex.setHours(10, 35, 0, 0)
+	var tep2andbflex = ep2andbflex - now
 	var eflexandbp3 = new Date()
 	eflexandbp3.setHours(11, 25, 0, 0)
 	var teflexandbp3 = eflexandbp3 - now
@@ -72,11 +69,11 @@ function setCountDownDate() {
 	} else if (min == tbp2) {
 		var countDownDate = bp2
 		var period = "Until the Beginning of Period 2"
-		var countDownDate2 = ep2
-		var period2 = "Until the End of Period 2"
-	} else if (min == tep2) {
-		var countDownDate = ep2
-		var period = "Until the End of Period 2"
+		var countDownDate2 = ep2andbflex
+		var period2 = "Until the End of Period 2\n and the Beginning of Flex"
+	} else if (min == tep2andbflex) {
+		var countDownDate = ep2andbflex
+		var period = "Until the End of Period 2\n and the Beginning of Flex"
 		var countDownDate2 = bflex
 		var period2 = "Until the Beginning of Flex"
 	} else if (min == tbflex) {
@@ -156,7 +153,9 @@ function setCountDownDate() {
 	});
 }
 setCountDownDate();
+var faceValue  = clock.getFaceValue();
 function restartClock() {
-	if(window.distance = 0)
+	if(faceValue = 0)
 	setCountDownDate();
 }
+setInterval(setCountDownDate(),300000);
