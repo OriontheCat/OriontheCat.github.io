@@ -48,7 +48,7 @@ function setCountDownDate() {
 	var eathl = new Date()
 	eathl.setHours(18, 45, 0, 0)
 	var teathl = eathl - now
-	var times = [tbp1, tep1, tbp2, tep2, tbflex, teflexandbp3, tep3, tbp4, tep4, tbp5, tep5, tbathe, teatheandbathl, teathl];
+	var times = [tbp1, tep1, tbp2, tep2andbflex, teflexandbp3, tep3, tbp4, tep4, tbp5, tep5, tbathe, teatheandbathl, teathl];
 	var timespos = times.filter(function(x) {
 		return x > 0
 	});
