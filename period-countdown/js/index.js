@@ -74,11 +74,6 @@ function setCountDownDate() {
 	} else if (min == tep2andbflex) {
 		var countDownDate = ep2andbflex
 		var period = "Until the End of Period 2\n and the Beginning of Flex"
-		var countDownDate2 = bflex
-		var period2 = "Until the Beginning of Flex"
-	} else if (min == tbflex) {
-		var countDownDate = bflex
-		var period = "Until the Beginning of Flex"
 			var countDownDate2 = eflexandbp3
 			var period2 = "Until the End of Flex and the Beginning of Period 3"
 	} else if (min == teflexandbp3) {
@@ -153,9 +148,8 @@ function setCountDownDate() {
 	});
 }
 setCountDownDate();
-var faceValue  = clock.getFaceValue();
 function restartClock() {
-	if(faceValue = 0)
+	if(window.distance = 0)
 	setCountDownDate();
 }
 setInterval(setCountDownDate(),300000);
