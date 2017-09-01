@@ -153,3 +153,4 @@ function restartClock() {
 	setCountDownDate();
 }
 setInterval(setCountDownDate(),300000);
+setInterval(restartClock(),1000);
