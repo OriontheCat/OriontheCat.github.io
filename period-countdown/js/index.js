@@ -122,7 +122,11 @@ function setCountDownDate() {
 			var countDownDate2 = bp1
 			var period2 = "Until the Beginning of Period 1"
 	} else {
-		console.log("crap")
+		var countDownDate = bp1
+		var period = "Until the Beginning of Period 1"
+		var countDownDate2 = ep1
+		var period2 = "Until the End of Period 1"
+
 	};
 	document.getElementById("period").innerHTML = "Time " + period
 		// Find the distance between now an the count down date
