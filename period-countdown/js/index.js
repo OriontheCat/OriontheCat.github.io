@@ -5,7 +5,7 @@ var schedule = [
 	[ep1, 'ep1', 9, 5, "Until the End of Period 1"],
 	[bp2, 'bp2', 9, 15, "Until the Beginning of Period 2"],
 	[ep2andbflex, 'ep2andbflex', 10, 35, "Until the End of Period 2\nand the Beginning of Flex"],
-	[eflexandbp3, 'eflexandbp3', 7, 45, "Until the End of Flex and the Beginning of Period 3"],
+	[eflexandbp3, 'eflexandbp3', 11, 45, "Until the End of Flex and the Beginning of Period 3"],
 	[ep3, 'ep3', 12, 45, "Until the End of Period 3"],
 	[bp4, 'bp4', 12, 50, "Until the Beginning of Period 4"],
 	[ep4, 'ep4', 14, 10, "Until the End of Period 4"],
