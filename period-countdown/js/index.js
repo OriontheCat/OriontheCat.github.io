@@ -45,25 +45,34 @@ function setCountDownDate() {
     }
   }
 
-  var futureDate  = new Date(countDownDate);
+	  var futureDate  = new Date(countDownDate);
 
-  var currentDate = new Date();
+	  var currentDate = new Date();
 
-  diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+	  diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
-  $(document).ready(function () {
-    console.log("Diff: " + diff)
-    console.log("CDD: " +   countDownDate)
-    clock = $('.clock').FlipClock({
-      clockFace: 'HourlyCounter',
-      autoStart: false,
-      countdown: true,
-      showSeconds: true
-    });
-    clock.setTime(diff);
-    clock.start();
-    document.getElementById("period").innerHTML = "Time " + period
-  });
-};
+		console.log('ran restartCountDownDate');
 
-setCountDownDate();
+		restartCountDownDate();
+
+	  $(document).ready(function () {
+	    console.log("Diff: " + diff)
+	    console.log("CDD: " +   countDownDate)
+	    clock = $('.clock').FlipClock({
+	      clockFace: 'HourlyCounter',
+	      autoStart: false,
+	      countdown: true,
+	      showSeconds: true
+	    });
+	    clock.setTime(diff);
+	    clock.start();
+	    document.getElementById("period").innerHTML = "Time " + period
+	  });
+	};
+
+	setCountDownDate();
+
+	function restartCountDownDate(){
+		console.log('setting timeout');
+		setTimeout(setCountDownDate,diff*1000)
+	}
