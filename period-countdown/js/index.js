@@ -3,16 +3,16 @@ let clock, countDownDate, diff, period, timeLeft, bp1, ep1, bp2, ep2andbflex, ef
 var schedule = [
 	[bp1, 'tbp1', 7, 45, "Until the Beginning of Period 1"],
 	[ep1, 'ep1', 9, 5, "Until the End of Period 1"],
-	[bp2, 'bp2', 9, 15, "Until the Beginning of Period 2"],
+	[bp2, 'bp2', 9, 15, "Until the End of Passing Time for P2"],
 	[ep2andbflex, 'ep2andbflex', 10, 35, "Until the End of Period 2\nand the Beginning of Flex"],
-	[eflexandbp3, 'eflexandbp3', 11, 45, "Until the End of Flex and the Beginning of Period 3"],
+	[eflexandbp3, 'eflexandbp3', 11, 25, "Until the End of Flex and the Beginning of Period 3"],
 	[ep3, 'ep3', 12, 45, "Until the End of Period 3"],
-	[bp4, 'bp4', 12, 50, "Until the Beginning of Period 4"],
+	[bp4, 'bp4', 12, 50, "Until the End of Passing Time for P4"],
 	[ep4, 'ep4', 14, 10, "Until the End of Period 4"],
-	[bp5, 'bp5', 14, 15, "Until the Beginning of Period 5"],
+	[bp5, 'bp5', 14, 15, "Until the End of Passing Time for P5"],
 	[ep5, 'ep5', 15, 35, "Until the End of Period 5"],
 	[bathe, 'bathe', 15, 45, "Until the Beginning of Early Athletics"],
-	[eatheandbathl, 'eatheandbathl', 17, 15, "Until the Beginning of Early Athletics"],
+	[eatheandbathl, 'eatheandbathl', 17, 15, "Until the End of Early Athletics\nand the Beginning of Late Athletics"],
 	[eathl, 'eathl', 18, 45, "Until the End of Late Athletics"]
 ]
 

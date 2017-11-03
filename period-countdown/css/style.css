@@ -1,6 +1,10 @@
 @import url('https://rsms.me/interface/interface.css');
 .clock{
-  transform: scale(1.5)
+  zoom: 2.74;
+-ms-transform: scale(1.74); /* IE 9 /
+-webkit-transform: scale(174%); / Safari and Chrome /
+-o-transform: scale(154%); / Opera /
+-moz-transform: scale(154%); / Firefox */
 }
 
 body {
