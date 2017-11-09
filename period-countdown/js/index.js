@@ -1,4 +1,4 @@
-let clock, countDownDate, diff, period, timeLeft, bp1, ep1, bp2, ep2andbflex, eflexandbp3, ep3, bp4, ep4, bp5, ep5, bathe, eatheandbathl, eathl, tbp1, tep1, tbp2, tep2andbflex, teflexandbp3, tep3, tbp4, tep4, tbp5, tep5, tbathe, teatheandbathl, teathl;
+let clock, countDownDate, diff, period, timeLeft, mn, bp1, ep1, bp2, ep2andbflex, eflexandbp3, ep3, bp4, ep4, bp5, ep5, bathe, eatheandbathl, eathl, tbp1, tep1, tbp2, tep2andbflex, teflexandbp3, tep3, tbp4, tep4, tbp5, tep5, tbathe, teatheandbathl, teathl;
 
 var schedule = [
 	[bp1, 'tbp1', 7, 45, "Until the Beginning of Period 1"],
@@ -13,7 +13,8 @@ var schedule = [
 	[ep5, 'ep5', 15, 35, "Until the End of Period 5"],
 	[bathe, 'bathe', 15, 45, "Until the Beginning of Early Athletics"],
 	[eatheandbathl, 'eatheandbathl', 17, 15, "Until the End of Early Athletics\nand the Beginning of Late Athletics"],
-	[eathl, 'eathl', 18, 45, "Until the End of Late Athletics"]
+	[eathl, 'eathl', 18, 45, "Until the End of Late Athletics"],
+	[mn, 'eathl', 23, 59, "Until Midnight"]
 ]
 
 function setCountDownDate() {
